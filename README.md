@@ -20,17 +20,17 @@ O objetivo é explorar como texto em linguagem natural pode ser transformado em 
 Antes de começar, você precisa ter instalado:
 - Python 3.8+
 - Pip
-- Ollama instalado na máquina
+- Ollama
 
 ## Configuração do Ambiente
 
-1. Instalar dependências
+### 1. Instalar dependências
 - pip install ollama
 - pip install transformers
 - pip install pandas
 
-2. Baixar modelo de embeddings no Ollama
-ollama pull nomic-embed-text-v2-moe
+### 2. Baixar modelo de embeddings no Ollama
+- ollama pull nomic-embed-text-v2-moe
 
 ## Como Executar
-python 
+python embeddings.py
